@@ -1,0 +1,17 @@
+# Import libraries
+from matplotlib import pyplot as plt
+import numpy as np
+  
+  
+# Creating dataset
+College Marks = ['Thermal Engineering', 'HMT', 'Fluid mechanics',
+        'Robotics', 'DME', 'DOM']
+  
+data = [95%, 99%, 96%, 99%, 100%, 98%]
+  
+# Creating plot
+fig = plt.figure(figsize =(10, 7))
+plt.pie(data, labels = cars)
+  
+# show plot
+plt.show()
